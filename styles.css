@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#image {
+    width: 400px;
+    height: 300px;
+    line-height: 300px;
+    border: 2px solid #000;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.preview {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.preview:hover {
+    border-color: red;
+}
